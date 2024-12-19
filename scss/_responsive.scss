@@ -1,0 +1,306 @@
+@media (max-width: 1600px) {
+    /*------------------------------------------------------------- header*/
+    .navbar {
+        &-container {
+            font-size: 12px;
+        }
+    }
+    /*------------------------------------------------------------- index*/
+    .w-wrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /*------------------------------------------------------------- cate*/
+    /*------------------------------------------------------------- detail*/
+    /*------------------------------------------------------------- footer*/
+}
+@media (max-width: 1366px) {
+    /*------------------------------------------------------------- header*/
+    .navbar {
+        &-container {
+            font-size: 11px;
+        }
+    }
+    /*------------------------------------------------------------- index*/
+    /*------------------------------------------------------------- cate*/
+    /*------------------------------------------------------------- detail*/
+    .emagazine-primary {
+        &__thumb {
+            .image-wrapper {
+                padding-bottom: 120%;
+            }
+        }
+        &__text {
+            padding: 20px;
+        }
+    }
+    .emagazine-secondary {
+        padding: 20px;
+        &__right blockquote > p {
+            font-size: 20px !important;
+        }
+    }
+    /*------------------------------------------------------------- footer*/
+}
+// max width 1280px
+@media (max-width: 1280px) {
+    .d-xl-none {
+        display: none;
+    }
+    .d-xl-block {
+        display: block;
+    }
+    .d-xl-flex {
+        display: flex;
+    }
+    .d-xl-grid {
+        display: grid;
+    }
+    /*------------------------------------------------------------- header*/
+    .navbar {
+        &-container {
+            font-size: 10px;
+        }
+    }
+    /*------------------------------------------------------------- index*/
+    /*------------------------------------------------------------- cate*/
+    /*------------------------------------------------------------- detail*/
+    .detail-content {
+        padding-left: 2rem;
+    }
+    /*------------------------------------------------------------- footer*/
+}
+
+// max width 1024px
+@media (max-width: 1024px) {
+    .d-lg-none {
+        display: none;
+    }
+    .d-lg-block {
+        display: block;
+    }
+    .d-lg-flex {
+        display: flex;
+    }
+    .d-lg-grid {
+        display: grid;
+    }
+
+    /*------------------------------------------------------------- header*/
+    /*------------------------------------------------------------- index*/
+    /*------------------------------------------------------------- cate*/
+    /*------------------------------------------------------------- detail*/
+    /*------------------------------------------------------------- footer*/
+}
+
+// max width 976px
+@media (max-width: 976px) {
+    .d-md-none {
+        display: none;
+    }
+    .d-md-block {
+        display: block;
+    }
+    .d-md-flex {
+        display: flex;
+    }
+    .d-md-grid {
+        display: grid;
+    }
+    /*------------------------------------------------------------- header*/
+    /*------------------------------------------------------------- index*/
+    .section-primary {
+        &__container {
+            display: block;
+        }
+        &__right {
+            display: none;
+        }
+    }
+    .section-secondary {
+        &__container {
+            display: block;
+        }
+        &__left {
+            padding-right: 0;
+            border-right: none;
+
+            .article {
+                padding: 20px 0;
+                &:first-child {
+                    padding-top: 0;
+                }
+            }
+        }
+        &__right {
+            padding: 20px 0 0 0;
+            display: none;
+        }
+        
+    }
+    .section-tertiary {
+        &__container {
+            display: block;
+        }
+        &__right {
+            display: none;
+        }
+    }
+    /*------------------------------------------------------------- cate*/
+    /*------------------------------------------------------------- detail*/
+    .detail-content {
+        padding-left: 0;
+    }
+    /*------------------------------------------------------------- footer*/
+    .footer {
+        &-top {
+            flex-direction: column;
+            gap: 20px;
+        }
+        &-logo {
+            text-align: center;
+        }
+    }
+}
+
+// max width 640px
+@media (max-width: 640px) {
+    .d-sm-none {
+        display: none;
+    }
+    .d-sm-block {
+        display: block;
+    }
+    .d-sm-flex {
+        display: flex;
+    }
+    .d-sm-grid {
+        display: grid;
+    }
+    .w-wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    /*------------------------------------------------------------- header*/
+    .header-mb {
+        .logo {
+            img {
+                height: 40px;
+            }
+        }
+    }
+    /*------------------------------------------------------------- index*/
+    .ads-center {
+        background-color: #fff;
+    }
+
+    .event-stream {
+        &__container {
+            padding: 20px 15px 40px;
+        }
+    }
+
+    /*------------------------------------------------------------- cate*/
+    /*------------------------------------------------------------- detail*/
+    .detail-primary {
+        .articles-primary-mb {
+            .article__title {
+                font-size: 16px;
+                letter-spacing: normal;
+            }
+        }
+        .detail-related-news {
+            .articles {
+                gap: 10px;
+            }
+        }
+        .detail-other-news {
+            .article {
+                &:first-child {
+                    padding-top: 0;
+                }
+            }
+        }
+    }
+    .emagazine-primary {
+        display: flex;
+        flex-direction: column;
+
+        &__text {
+            position: relative;
+            top: auto;
+            right: auto;
+            transform: unset;
+        }
+        &__thumb {
+            .image-wrapper {
+                padding-bottom: 60%;
+            }
+        }
+        &__cate {
+            border-bottom: 2px solid #e40c14;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            font-size: 20px;
+        }
+    }
+    .emagazine-secondary {
+        padding-left: 15px;
+        padding-right: 15px;
+        &__right {
+            figure.expNoEdit.right,
+            figure.expNoEdit.left {
+                text-align: left;
+                max-width: 100%;
+                float: unset;
+                width: 100% !important;
+                margin-left: 0 !important;
+            }
+            blockquote.right,
+            blockquote.left {
+                float: unset;
+                width: auto !important;
+                margin-left: 0 !important;
+                max-width: 100%;
+                margin-bottom: 20px;
+                margin-right: 0 !important;
+            }
+            blockquote > p {
+                font-weight: 400;
+                line-height: 130% !important;
+            }
+
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-size: 24px;
+            }
+        }
+    }
+    /*------------------------------------------------------------- footer*/
+    .footer {
+        &-content {
+            grid-template-columns: 1fr;
+            grid-gap: 15px;
+        }
+    }
+}
+
+// danh cho man hinh duoi 400px
+@media (max-width: 25em) {
+    /*------------------------------------------------------------- header*/
+    /*------------------------------------------------------------- index*/
+    /*------------------------------------------------------------- cate*/
+    /*------------------------------------------------------------- detail*/
+    /*------------------------------------------------------------- footer*/
+}
+@media (max-width: 20em) {
+    /*------------------------------------------------------------- header*/
+    /*------------------------------------------------------------- index*/
+    /*------------------------------------------------------------- cate*/
+    /*------------------------------------------------------------- detail*/
+    /*------------------------------------------------------------- footer*/
+}
